@@ -569,6 +569,10 @@ p {
     .contact-form input {
         width: 100%;
     }
+
+    .search-vol {
+        padding-right: 10vw;
+    }
 }
 
 /* Телефоны (до 480px) */
@@ -619,5 +623,9 @@ p {
     .contact-form button {
         font-size: 0.9rem;
         padding: 8px 12px;
+    }
+
+    .search-vol {
+        padding-right: 10vw;
     }
 }
