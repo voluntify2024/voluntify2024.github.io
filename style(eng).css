@@ -550,6 +550,7 @@ p {
             align-items: center; /* Центрируем содержимое */
             min-height: 100vh; /* Высота на весь экран */
             background-image: url('background1_vertical.jfif'); /* Ваше изображение фона */
+            width: 100%;
             background-size: cover; /* Масштабируем изображение */
             background-position: center; /* Центрируем изображение */
         }

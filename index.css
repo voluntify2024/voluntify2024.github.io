@@ -551,6 +551,7 @@ p {
             min-height: 100vh; /* Высота на весь экран */
             background-image: url('background1_vertical.jfif'); /* Ваше изображение фона */
             background-size: cover; /* Масштабируем изображение */
+            width: 100%;
             background-position: center; /* Центрируем изображение */
         }
     
