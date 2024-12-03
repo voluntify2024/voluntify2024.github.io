@@ -22,9 +22,6 @@
     color: #0056b3; /* Цвет текста при наведении */
 }
 
-
-
-
 /* Basic Reset */
 * {
     margin: 0;
@@ -494,3 +491,6 @@ p {
     margin-top: 20px;
 }
 
+.search-vol {
+    padding-top: 7vw;
+}
