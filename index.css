@@ -549,7 +549,7 @@ p {
             text-align: center; /* Центрируем текст */
             align-items: center; /* Центрируем содержимое */
             min-height: 100vh; /* Высота на весь экран */
-            background-image: url('background1.jfif'); /* Ваше изображение фона */
+            background-image: url('background1_vertical.jfif'); /* Ваше изображение фона */
             background-size: cover; /* Масштабируем изображение */
             background-position: center; /* Центрируем изображение */
         }
