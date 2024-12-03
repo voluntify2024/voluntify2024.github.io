@@ -586,7 +586,7 @@ p {
         text-align: center;
         align-items: center;
         min-height: 100vh; /* Все еще захватывает всю высоту экрана */
-        background-image: url('path/to/your/image.jpg'); /* Замените на путь к вашему изображению */
+        background-image: url('background1.jfif'); /* Замените на путь к вашему изображению */
         background-size: contain; /* Описание: изображение будет масштабироваться так, чтобы полностью помещаться в блок */
         background-position: center center; /* Центрируем изображение */
         background-repeat: no-repeat; /* Убираем повторение */
