@@ -725,10 +725,3 @@ p {
     }
 }
 
-@media (orientation: portrait) {
-    .header-img {
-        max-width: 100%;
-        max-height: 90vh; /* Немного уменьшаем высоту для отступов */
-        object-fit: contain;
-    }
-}
