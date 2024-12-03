@@ -582,41 +582,56 @@ p {
    
     /* Секция Header */
     .header {
-        padding: 5vw 2vw; /* Уменьшаем отступы */
-        text-align: center;
-        align-items: center;
-        min-height: 100vh; /* Все еще захватывает всю высоту экрана */
-        background-image: url('background1.jfif'); /* Замените на путь к вашему изображению */
-        background-size: contain; /* Описание: изображение будет масштабироваться так, чтобы полностью помещаться в блок */
-        background-position: center center; /* Центрируем изображение */
-        background-repeat: no-repeat; /* Убираем повторение */
-        height: 100vh; /* Фиксированная высота для секции */
+        padding: 5vw 2vw; /* Уменьшенные отступы */
+        text-align: center; /* Центрируем текст */
+        align-items: center; /* Центрируем содержимое */
+        min-height: 100vh; /* Высота на весь экран */
+        background-image: url('background1.jfif'); /* Ваше изображение фона */
+        background-size: cover; /* Масштабируем изображение */
+        background-position: center; /* Центрируем изображение */
     }
 
+    /* Заголовок в header */
     .header h1 {
-        font-size: 1.75rem; /* Уменьшаем размер заголовка */
+        font-size: 1.8rem; /* Уменьшаем размер текста */
         margin-bottom: 2vw; /* Уменьшаем отступ снизу */
+        line-height: 1.4; /* Делаем текст компактнее */
     }
 
-    .header p {
-        font-size: 1rem; /* Уменьшаем размер текста */
+    /* Описание */
+    .text_header2 {
+        font-size: 1rem; /* Уменьшаем текст */
+        line-height: 1.4; /* Лучшая читаемость */
+        width: 90%; /* Текст на всю ширину экрана */
+        margin: 0 auto; /* Центрируем текст */
+        margin-bottom: 4vw; /* Уменьшенный отступ снизу */
     }
 
+    /* Кнопка призыва к действию */
+    .cta-button {
+        font-size: 1rem; /* Уменьшаем шрифт */
+        padding: 10px 20px; /* Компактные отступы */
+        margin-bottom: 5vw; /* Отступ снизу */
+    }
+
+    /* Навигационные ссылки */
     .header_link {
-        margin-left: 0; /* Убираем левый отступ */
-        flex-direction: column; /* Располагаем ссылки вертикально */
         gap: 10px; /* Уменьшаем промежуток между ссылками */
-        margin-top: 3vw; /* Добавляем отступ сверху */
+        margin-top: 3vw; /* Отступ сверху */
+        margin-left: 0; /* Убираем левый отступ */
     }
 
     .header_link a {
-        font-size: 14px; /* Уменьшаем размер шрифта ссылок */
+        font-size: 14px; /* Уменьшаем размер текста */
     }
 
-    .cta-button {
-        font-size: 1rem; /* Уменьшаем размер шрифта */
-        padding: 10px 20px; /* Уменьшаем внутренние отступы */
+    /* Логотип или элементы снизу */
+    .sign_voluntify {
+        width: 60%; /* Уменьшаем размер */
+        bottom: 5vw; /* Отступ снизу */
+        right: 20%; /* Центрируем */
     }
+}
 
     /* Секция About */
     .about {
@@ -711,7 +726,6 @@ p {
     .search-vol {
         padding-top: 3vw; /* Уменьшаем отступ сверху */
     }
-}
 
 @media (max-width: 768px) {
     .header {
