@@ -626,6 +626,6 @@ p {
     }
 
     .search-vol {
-        padding-right: 10vw;
+        margin-right: 10vw;
     }
 }
