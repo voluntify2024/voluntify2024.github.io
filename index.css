@@ -536,57 +536,135 @@ p {
     }
 }
 
-/* Телефоны (до 480px) */
 @media (max-width: 480px) {
+    body {
+        font-size: 14px; /* Уменьшаем базовый размер шрифта */
+    }
+
+    /* Секция Header */
     .header {
-        padding: 5vw 2vw;
+        padding: 5vw 2vw; /* Уменьшаем отступы */
         text-align: center;
         align-items: center;
+        min-height: 100vh; /* Все еще захватывает всю высоту экрана */
     }
 
     .header h1 {
-        font-size: 1.5rem;
+        font-size: 1.75rem; /* Уменьшаем размер заголовка */
+        margin-bottom: 2vw; /* Уменьшаем отступ снизу */
     }
 
-    .text_header2 {
-        font-size: 0.9rem;
+    .header p {
+        font-size: 1rem; /* Уменьшаем размер текста */
+    }
+
+    .header_link {
+        margin-left: 0; /* Убираем левый отступ */
+        flex-direction: column; /* Располагаем ссылки вертикально */
+        gap: 10px; /* Уменьшаем промежуток между ссылками */
+        margin-top: 3vw; /* Добавляем отступ сверху */
+    }
+
+    .header_link a {
+        font-size: 14px; /* Уменьшаем размер шрифта ссылок */
     }
 
     .cta-button {
-        font-size: 0.9rem;
-        padding: 10px 15px;
+        font-size: 1rem; /* Уменьшаем размер шрифта */
+        padding: 10px 20px; /* Уменьшаем внутренние отступы */
     }
 
-    .about, .features, .testimonials, .cta {
-        padding: 5vw 2vw;
+    /* Секция About */
+    .about {
+        padding: 5vw 2vw; /* Уменьшаем отступы */
+        text-align: center;
+    }
+
+    .about h2 {
+        font-size: 1.5rem; /* Уменьшаем размер заголовка */
+    }
+
+    .text_about1, .text_about2, .text_about3 {
+        font-size: 1rem; /* Уменьшаем размер текста */
+        width: 90%; /* Делаем текст более компактным */
+        margin: 0 auto;
+        padding: 1.5vw 0;
+    }
+
+    .wiv-button {
+        font-size: 1rem; /* Уменьшаем размер шрифта */
+        padding: 10px 20px; /* Уменьшаем отступы */
+    }
+
+    /* Секция Features */
+    .feature-cards {
+        grid-template-columns: 1fr; /* Одноколоночный вид */
     }
 
     .feature-card {
-        padding: 10px;
+        padding: 10px; /* Уменьшаем отступы */
     }
 
-    .cta_container {
-        padding: 10px;
+    /* Секция Testimonials */
+    .testimonial-container {
+        display: flex; /* Используем flex для отзывов */
+        flex-direction: column; /* Строим отзывы в колонку */
     }
 
-    .cta h2 {
-        font-size: 1.25rem;
+    .testimonial1, .testimonial2 {
+        width: 100%; /* Убираем разделение на две колонки */
+        padding: 5px;
+        margin-bottom: 5vw;
     }
 
-    .cta p {
-        font-size: 0.9rem;
+    /* Секция Contact Form */
+    .contact-form {
+        padding: 5vw 2vw; /* Уменьшаем отступы */
     }
 
     .contact-form input {
-        width: 100%;
+        width: 100%; /* Ширина полей формы на весь экран */
     }
 
     .contact-form button {
-        font-size: 0.9rem;
-        padding: 8px 12px;
+        padding: 10px 20px; /* Уменьшаем размер кнопок */
+        font-size: 1rem; /* Уменьшаем размер шрифта */
+    }
+
+    .cta_container {
+        flex-direction: column; /* Убираем горизонтальное размещение */
+        padding: 10px 15px; /* Уменьшаем отступы */
+    }
+
+    .cta h2 {
+        font-size: 1.25rem; /* Уменьшаем размер шрифта */
+    }
+
+    .cta p {
+        font-size: 1rem; /* Уменьшаем размер текста */
+        margin-bottom: 5vw; /* Уменьшаем отступы */
+    }
+
+    /* Секция Feedback */
+    .text_feedback {
+        font-size: 1rem; /* Уменьшаем размер текста */
+        width: 90%; /* Центрируем текст */
+        margin: 0 auto;
+        padding: 1.5vw 0;
+    }
+
+    .fb_button {
+        font-size: 1rem; /* Уменьшаем размер шрифта */
+        padding: 10px 20px; /* Уменьшаем отступы */
+    }
+
+    /* Убираем лишние отступы для кнопок и ссылок */
+    .button_know_more {
+        margin-left: 0;
+        margin-top: 10px;
     }
 
     .search-vol {
-        margin-right: 10vw;
+        padding-top: 3vw; /* Уменьшаем отступ сверху */
     }
 }
