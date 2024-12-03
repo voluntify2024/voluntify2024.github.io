@@ -533,3 +533,91 @@ p {
 .search-vol {
     padding-top: 7vw;
 }
+
+/* Планшеты (до 768px) */
+@media (max-width: 768px) {
+    .header {
+        padding: 5vw;
+        text-align: center;
+        align-items: center;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .text_header2 {
+        font-size: 1rem;
+    }
+
+    .about h2, .features h2, .testimonials h2, .cta h2 {
+        font-size: 1.5rem;
+    }
+
+    .feature-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonial1, .testimonial2 {
+        width: 100%;
+    }
+
+    .cta_container {
+        padding: 15px;
+    }
+
+    .contact-form input {
+        width: 100%;
+    }
+}
+
+/* Телефоны (до 480px) */
+@media (max-width: 480px) {
+    .header {
+        padding: 5vw 2vw;
+        text-align: center;
+        align-items: center;
+    }
+
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    .text_header2 {
+        font-size: 0.9rem;
+    }
+
+    .cta-button {
+        font-size: 0.9rem;
+        padding: 10px 15px;
+    }
+
+    .about, .features, .testimonials, .cta {
+        padding: 5vw 2vw;
+    }
+
+    .feature-card {
+        padding: 10px;
+    }
+
+    .cta_container {
+        padding: 10px;
+    }
+
+    .cta h2 {
+        font-size: 1.25rem;
+    }
+
+    .cta p {
+        font-size: 0.9rem;
+    }
+
+    .contact-form input {
+        width: 100%;
+    }
+
+    .contact-form button {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+}
