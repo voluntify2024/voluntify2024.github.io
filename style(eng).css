@@ -560,6 +560,7 @@ p {
             align-items: center; /* Центрируем содержимое */
             min-height: 100vh; /* Высота на весь экран */
             background-color:  #1a1a2e;
+            background-image: none;
             width: 100%;
             background-size: cover; /* Масштабируем изображение */
             background-position: center; /* Центрируем изображение */
@@ -567,6 +568,7 @@ p {
     
         /* Заголовок в header */
         .header h1 {
+            color: #FFF;
             margin-top: 30vw;
             font-size: 1.8rem; /* Уменьшаем размер текста */
             margin-bottom: 2vw; /* Уменьшаем отступ снизу */
