@@ -560,9 +560,7 @@ p {
             align-items: center; /* Центрируем содержимое */
             min-height: 100vh; /* Высота на весь экран */
             background-color:  #1a1a2e;
-            background-size: cover; /* Масштабируем изображение */
             width: 100%;
-            background-position: center; /* Центрируем изображение */
         }
     
         /* Заголовок в header */
