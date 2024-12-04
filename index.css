@@ -566,7 +566,7 @@ p {
     
         /* Заголовок в header */
         .header h1 {
-            margin-top: 30vw;
+            margin-top: 15vw;
             color: #FFF;
             font-size: 1.8rem; /* Уменьшаем размер текста */
             margin-bottom: 2vw; /* Уменьшаем отступ снизу */
@@ -592,6 +592,7 @@ p {
     
         /* Навигационные ссылки */
         .header_link {
+            color: #FFF;
             gap: 10px; /* Уменьшаем промежуток между ссылками */
             margin-top: 3vw; /* Отступ сверху */
             margin-left: 0; /* Убираем левый отступ */

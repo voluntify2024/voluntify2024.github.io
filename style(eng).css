@@ -468,7 +468,7 @@ p {
 }
 
 @media (max-width: 480px) {
-    .header h1 {
+     .header h1 {
         font-size: 1.5rem;
     }
 
@@ -562,14 +562,12 @@ p {
             background-color:  #1a1a2e;
             background-image: none;
             width: 100%;
-            background-size: cover; /* Масштабируем изображение */
-            background-position: center; /* Центрируем изображение */
         }
     
         /* Заголовок в header */
         .header h1 {
+            margin-top: 15vw;
             color: #FFF;
-            margin-top: 30vw;
             font-size: 1.8rem; /* Уменьшаем размер текста */
             margin-bottom: 2vw; /* Уменьшаем отступ снизу */
             line-height: 1.4; /* Делаем текст компактнее */
@@ -594,6 +592,7 @@ p {
     
         /* Навигационные ссылки */
         .header_link {
+            color: #FFF;
             gap: 10px; /* Уменьшаем промежуток между ссылками */
             margin-top: 3vw; /* Отступ сверху */
             margin-left: 0; /* Убираем левый отступ */
@@ -605,9 +604,11 @@ p {
     
         /* Логотип или элементы снизу */
         .sign_voluntify {
-            width: 60%; /* Уменьшаем размер */
-            bottom: 5vw; /* Отступ снизу */
-            right: 20%; /* Центрируем */
+            position: absolute; /* Перемещение поверх фона */
+            bottom: 70%; /* Смещение от нижней границы изображения */
+            left: 50%; /* Центрирование по горизонтали */
+            transform: translateX(-50%); /* Центрирование относительно середины */
+            width: 50%; /* Подстройте ширину знака */
         }
     }
     
