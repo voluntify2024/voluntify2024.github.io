@@ -599,6 +599,7 @@ p {
         }
     
         .header_link a {
+            color: #FFF;
             font-size: 14px; /* Уменьшаем размер текста */
         }
     
