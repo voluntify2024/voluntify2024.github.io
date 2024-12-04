@@ -549,7 +549,7 @@ p {
             text-align: center; /* Центрируем текст */
             align-items: center; /* Центрируем содержимое */
             min-height: 100vh; /* Высота на весь экран */
-            background-image: url('background1_vertical.jfif'); /* Ваше изображение фона */
+            background-image: url('background1.jfif'); /* Ваше изображение фона */
             background-size: cover; /* Масштабируем изображение */
             width: 100%;
             background-position: center; /* Центрируем изображение */
@@ -557,6 +557,7 @@ p {
     
         /* Заголовок в header */
         .header h1 {
+            margin-top: 30vw;
             font-size: 1.8rem; /* Уменьшаем размер текста */
             margin-bottom: 2vw; /* Уменьшаем отступ снизу */
             line-height: 1.4; /* Делаем текст компактнее */
