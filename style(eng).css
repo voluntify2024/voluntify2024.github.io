@@ -11,6 +11,10 @@
     margin-left: 70vw;
 }
 
+.mobile-image {
+    display: none;
+}
+
 /* Стили для ссылок */
 .header_link a {
     color: black; /* Цвет текста */
@@ -541,6 +545,12 @@ p {
         font-size: 14px; /* Уменьшаем базовый размер шрифта */
     }
 
+    .mobile-image {
+        display: block;
+        width: 100%; /* Чтобы картинка растягивалась по ширине экрана */
+        height: auto; /* Сохраняем пропорции */
+    }
+
     /* Секция Header */
     @media (max-width: 480px) {
         /* Основной контейнер header */
@@ -549,7 +559,7 @@ p {
             text-align: center; /* Центрируем текст */
             align-items: center; /* Центрируем содержимое */
             min-height: 100vh; /* Высота на весь экран */
-            background-image: url('background1.jfif'); /* Ваше изображение фона */
+            background-color:  #1a1a2e;
             width: 100%;
             background-size: cover; /* Масштабируем изображение */
             background-position: center; /* Центрируем изображение */
