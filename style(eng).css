@@ -591,6 +591,15 @@ p {
             margin-bottom: 5vw; /* Отступ снизу */
         }
     
+        .text_header3 {
+            color: #FFF;
+            font-size: 1rem; /* Уменьшаем текст */
+            line-height: 1.4; /* Лучшая читаемость */
+            width: 90%; /* Текст на всю ширину экрана */
+            margin: 0 auto; /* Центрируем текст */
+            margin-bottom: 4vw; /* Уменьшенный отступ снизу */
+        }
+
         /* Навигационные ссылки */
         .header_link {
             color: #FFF;
