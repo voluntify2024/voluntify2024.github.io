@@ -588,7 +588,7 @@ p {
         .cta-button {
             font-size: 1rem; /* Уменьшаем шрифт */
             padding: 10px 20px; /* Компактные отступы */
-            margin-bottom: 5vw; /* Отступ снизу */
+            margin-bottom: 8vw; /* Отступ снизу */
         }
 
         .text_header3 {
